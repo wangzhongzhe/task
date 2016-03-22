@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>task five</title>
+<link rel="stylesheet" type="text/css" href="task five.css" />
+</head>
+
+<body>
+<div class="header">
+   <div class="logo">
+      <img src="1.jpg">
+   </div>
+   <ul class="list">
+      <li class="inline"><a href="">导航链接一</a></li>
+	  <li class="inline"><a href="">导航链接二</a></li>
+	  <li class="inline"><a href="">导航链接三</a></li>
+	  <li class="inline"><a href="">导航链接四</a></li>
+   </ul>
+</div>
+<div class="center">
+   <div class="first">
+      <h2>文章一级标题</h2>
+	  <h3>文章二级标题</h3>
+	  <article>文章作者 文章发表时间</article>
+	  <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />这是一个很长很长的段落，<a href="http://ife.baidu.com/task/all">这里有个链接到http://ife.baidu.com/task/all</a>这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这是一个很长很长的段落</strong>，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
+	  <img src="8.jpg" width=250px /><br />
+	  <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />这是一个很长很长的段落，<a href="http://ife.baidu.com/task/all">这里有个链接到http://ife.baidu.com/task/all</a>这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这是一个很长很长的段落</strong>，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
+   </div>
+   <div class="second">
+	  <h4>这里以后是一个侧栏，这是侧栏的标题</h4>
+	  <form>
+	      <div>
+		     请输入邮箱地址&nbsp;&nbsp;&nbsp;<input type="text" name="email" placeholder="这是一个文本框" maxlength="20" />
+		  </div>
+		  <div class="small">
+		     邮箱地址请按要求格式填入
+		  </div>
+		  <div class="password">
+		     请输入密码&nbsp;&nbsp;&nbsp;<input type="password" name="password" placeholder="********" maxlength="20" />
+		  </div>
+		  <div class="passwordag">
+		     请重复输入密码&nbsp;&nbsp;&nbsp;<input type="password" name="passwordagain" placeholder="********" maxlength="20" />
+		  </div>
+		  <div class="small">
+		     密码请为6-16位英文数字
+		  </div>
+		  <div class="sex">
+		     性别&nbsp;&nbsp;&nbsp;<input type="radio" name="男" checked="checked">男<input type="radio" name="女" />女
+		  </div>
+		  <div class="city">省份&nbsp;&nbsp;&nbsp;
+		  <select name="shengfen" size="1">
+                <optgroup label="所在省份">
+                   <option>黑龙江</option>
+                   <option>吉林</option>
+                   <option>辽宁</option>
+                   <option>河北</option>
+                   <option>天津</option>
+                   <option>北京</option>
+                   <option>山东</option>
+                   <option>河南</option>
+                   <option>江苏</option>
+                   <option>上海</option>
+                   <option>浙江</option>
+                   <option>福建</option>
+                   <option>安徽</option>
+                   <option>广东</option>
+                   <option>广西</option>
+                   <option>云南</option>
+                   <option>四川</option>
+                   <option>西藏</option>
+                   <option>新疆</option>
+                   <option>陕西</option>
+                   <option>宁夏</option>
+                   <option>内蒙古</option>
+                   <option>湖北</option>
+                   <option>山西</option>
+                   <option>江西</option>
+                   <option>贵州</option>
+                   <option>湖南</option>
+                   <option>青海</option>
+                   <option>香港</option>
+                   <option>澳门</option>
+                   <option>台湾</option>
+               </optgroup>
+		</select>
+		</div>
+		<div class="hobby">爱好&nbsp;&nbsp;&nbsp;<input type="checkbox" name="sport" />运动<input type="checkbox" name="art" />艺术<input type="checkbox" name="science" />科学</div>
+		<div class="introduce">个人描述&nbsp;&nbsp;&nbsp;<textarea rows="3" cols="15">这是一个多行输入框，输入你的个人描述</textarea></div>
+		<input type="submit" value="确认提交" class="submit" />
+	  </form>
+   </div>
+   <div class="clear"></div>
+   <div class="third">
+      <h2>另一篇文章一级标题</h2>
+	     <h3>文章二级标题</h3>
+	     <article>文章作者 文章发表时间</article>
+	     <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />这是一个很长很长的段落，<a href="http://ife.baidu.com/task/all">这里有个链接到http://ife.baidu.com/task/all</a>这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这是一个很长很长的段落</strong>，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
+	     <img src="8.jpg" width=250px /><br />
+	     <ul>
+	        <li>列表项目一</li>
+		    <li>列表项目二</li>
+		    <li>列表项目三</li>
+   </div>
+   <div class="four">
+      <h2>图片</h2>
+	  <div class="picture">
+	     <span>好看的图片</span><img src="8.jpg" width="130px">
+	  </div>
+	  <div class="picture">
+	     <span>好看的图片</span><img src="8.jpg" width="130px">
+	  </div>
+	  <div class="picture">
+	     <span>好看的图片</span><img src="8.jpg" width="130px">
+	  </div>
+	  <div class="picture">
+	     <span>好看的图片</span><img src="8.jpg" width="130px">
+	  </div>
+	  <div class="picture">
+	     <span>好看的图片</span><img src="8.jpg" width="130px">
+	  </div>
+	  <div class="picture">
+	     <span>好看的图片</span><img src="8.jpg" width="130px">
+	  </div>
+	  <div class="picture">
+	     <span>好看的图片</span><img src="8.jpg" width="130px">
+	  </div>
+	  <div class="picture">
+	     <span>好看的图片</span><img src="8.jpg" width="130px">
+	  </div>
+   </div>
+   <div class="five">
+      <h2>最后一篇文章一级标题</h2>
+	  <h3>文章二级标题</h3>
+	  <article>文章作者 文章发表时间</article>
+	  <ol>
+	     <li>排名一</li>
+		 <li>排名二</li>
+		 <li>排名三</li>
+	  </ol>
+	  <div>
+         <table border="1">
+         <caption>下面是一个表格，给表格加了border=1的边</caption>
+	        <tr style="background-color:#333333; font-family:Arial, Helvetica, sans-serif; color:#FFFFFF; ">
+	           <td>表头</td><td>表头</td><td>表头</td>
+            </tr>
+	        <tr>
+	           <td>表内容单元格</td><td>表内容单元格</td><td><a href="">操作</a></td>
+            </tr>
+	        <tr>
+	           <td>表内容单元格</td><td>表内容单元格</td><td><a href="">操作</a></td>
+	        </tr>
+	        <tr>
+	           <td>表内容单元格</td><td>表内容单元格</td><td><a href="">操作</a></td>
+	        </tr>
+	        <tr>
+	           <td>表内容单元格</td><td>表内容单元格</td><td><a href="">操作</a></td>
+	        </tr>
+			<tr style="background-color:#999999;">
+	           <td>总计</td><td>1000</td><td></td>
+	        </tr>
+        </table>
+      </div>
+   </div>
+</div>
+</body>
+</html>
