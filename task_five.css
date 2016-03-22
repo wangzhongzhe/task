@@ -1,0 +1,195 @@
+@charset "utf-8";
+body{
+   margin:0px;
+   padding:0px;
+}
+p{
+   text-indent:1cm;
+}
+.header{
+   height: 60px;
+   background-color: #444;
+}
+.logo{
+   float: left;
+   margin-left: 35px;
+   margin-top: 0px;
+   width: 100px;
+}
+.inline
+{
+   display:inline;
+}
+.list
+{
+   margin:0;
+   padding:0;
+   float: right;
+   margin-right: 25px;
+   padding-top: 20px;
+}
+li a{
+   color:#FFFFFF;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:15px;
+}
+li a:link {text-decoration: none;}
+li a:hover {color:#FF9900;}	
+li a:active {color:#FF0000;}
+.center{
+   position:absolute;
+   background-color:#CCCCCC;
+   width:100%;
+   height:2350px;;
+}
+.first{
+   background-color:#FFFFFF;
+   width:810px;
+   height:600px;
+   padding:20px;
+   margin:0 0 0 20px;
+   position:relative;
+   top:20px;
+   left:20px;
+   border:#909090 1px solid;
+   -moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
+   -webkit-box-shadow: 2px 2px 10px #909090;/*safari或chrome*/
+   box-shadow:2px 2px 10px #909090;/*opera或ie9*/
+   float:left;
+}
+.second{
+   background-color:#FFFFFF;
+   height:500px;
+   width:360px;
+   padding:20px 20px 20px 30px;
+   position:relative;
+   top:20px;
+   left:50px;
+   border:#909090 1px solid;
+   -moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
+   -webkit-box-shadow: 2px 2px 10px #909090;/*safari或chrome*/
+   box-shadow:2px 2px 10px #909090;/*opera或ie9*/
+   float:left;
+}
+.clear {
+  clear: both;
+}
+.third{
+   background-color:#FFFFFF;
+   width:810px;
+   height:530px;
+   padding:20px;
+   margin:0 0 0 20px;
+   position:relative;
+   top:40px;
+   left:20px;
+   border:#909090 1px solid;
+   -moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
+   -webkit-box-shadow: 2px 2px 10px #909090;/*safari或chrome*/
+   box-shadow:2px 2px 10px #909090;/*opera或ie9*/
+}
+.four{
+   background-color:#FFFFFF;
+   width:810px;
+   height:460px;
+   padding:20px;
+   margin:0 0 0 20px;
+   position:relative;
+   top:60px;
+   left:20px;
+   border:#909090 1px solid;
+   -moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
+   -webkit-box-shadow: 2px 2px 10px #909090;/*safari或chrome*/
+   box-shadow:2px 2px 10px #909090;/*opera或ie9*/
+}
+.five{
+   background-color:#FFFFFF;
+   width:810px;
+   height:460px;
+   padding:20px;
+   margin:0 0 0 20px;
+   position:relative;
+   top:80px;
+   left:20px;
+   border:#909090 1px solid;
+   -moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
+   -webkit-box-shadow: 2px 2px 10px #909090;/*safari或chrome*/
+   box-shadow:2px 2px 10px #909090;/*opera或ie9*/
+}
+article{
+   font-size:12px;
+   color:#666;
+}
+h3{
+   color:#666;
+} 
+h4{
+   padding:0 0 0 20px;
+   border-left-style:outset;
+}
+form{
+   padding:0 0 0 20px;
+   font-size:12px;
+   font-family:"Courier New", Courier, monospace;
+}
+form div{
+   color:#000000;
+}
+.small{
+   color:#FF0000;
+   font-size:12px;
+   padding:10px 0 0 105px;
+}
+.password{
+   padding:20px 0 0 25px;
+}
+.passwordag{
+   padding:10px 0 0 0px;
+}
+.sex{
+   padding:10px 0 0 60px;
+}
+.city{
+   padding:10px 0 0 60px;
+}
+.hobby{
+   padding:10px 0 0 60px;
+}
+.introduce{
+   padding:10px 0 0 35px;
+}
+.submit{
+   background-color: #0CE;
+   color: #fff;
+   font-size: 20px;
+   width: 100%;
+   height: 35px;
+   border: none;
+   border-radius: 5px;
+   -webkit-transition:all 0.2s linear;
+   margin-top: 20px;
+}
+.submit:hover{
+	background-color: #0CC;
+	-webkit-transition:all 0.2s linear;
+}
+.picture{
+   border-style: solid 1px;
+   text-align: center;
+   color:#663366;
+   -webkit-box-shadow:0 0 10px #000;  
+   -moz-box-shadow:0 0 10px #000;  
+   box-shadow:0 0 10px #000;  
+   width: 130px;
+   height: 100px;
+   padding: 15px;
+   margin: 20px;
+   float:left;
+}
+table{
+   text-align: left;
+   width:790px;
+   border-collapse:collapse;
+   font-size:14px;
+}
+/* CSS Document */
